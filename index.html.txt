@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Aerospace MAIT Technician</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #020617;
+  color: #e2e8f0;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(2,6,23,0.9);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #38bdf8;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+}
+
+h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #64748b;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>Your Name</h1>
+  <p>MAIT Aerospace Technician | Flight Hardware | 20+ Units in Orbit</p>
+  <a href="your-cv.pdf" class="button">Download CV</a>
+</header>
+
+<div class="container">
+
+<section id="about">
+<h2>About</h2>
+<div class="card">
+<p>
+MAIT Technician specialising in the build, integration and testing of flight hardware across full lifecycle programmes.  
+Experience includes over 20 flight units currently in orbit, with work across antenna systems, deployable structures and qualification hardware.
+</p>
+</div>
+</section>
+
+<section id="projects">
+<h2>Flight Heritage</h2>
+
+<div class="project-grid">
+
+<div class="card project">
+<h3>Lacuna Antennas</h3>
+<p>20+ units in orbit, batch production, HDRM systems</p>
+<img src="images/lacuna.jpg">
+</div>
+
+<div class="card project">
+<h3>S-Band Antenna</h3>
+<p>4 flight models, 2 deployed</p>
+<img src="images/sband.jpg">
+</div>
+
+<div class="card project">
+<h3>IOTA Magnetometer</h3>
+<p>In orbit (2026), NASA testing & RAL integration</p>
+<img src="images/iota.jpg">
+</div>
+
+<div class="card project">
+<h3>VHF (ECHOES)</h3>
+<p>R&D → EM → deployed</p>
+<img src="images/vhf.jpg">
+</div>
+
+<div class="card project">
+<h3>Offset Reflector</h3>
+<p>First FM build, delivery Q4 2026</p>
+<img src="images/reflector.jpg">
+</div>
+
+<div class="card project">
+<h3>Wrapped Rib (5m EQM)</h3>
+<p>Large deployable structure</p>
+<img src="images/wrapped.jpg">
+</div>
+
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="card">
+<p>
+MAIT • Flight Hardware • Integration & Test • Environmental Testing • MGSE • EGSE • HDRM • MAPS • ISO9001 • Traceability
+</p>
+</div>
+</section>
+
+<section>
+<h2>Experience Highlights</h2>
+<div class="card">
+<ul>
+<li>20+ flight units currently in orbit</li>
+<li>NASA Goddard test support</li>
+<li>RAL Space integration</li>
+<li>Multiple full lifecycle builds</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>Email: your@email.com</p>
+<p>LinkedIn: your link</p>
+</div>
+</section>
+
+</div>
+
+<footer>
+<p>© Your Name</p>
+</footer>
+
+</body>
+</html>
